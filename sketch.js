@@ -19,26 +19,26 @@ function setup(){
 function draw(){
     if(keyIsPressed){
         if(key=="r"){
-            image(lpkidsred, 0, 0);
+            image(lpkidsred, 50, 50);
         }
         if(key=="g"){
-            image(lpkidsgreen, 0, 0);
+            image(lpkidsgreen, 50, 50);
         }
         if(key=="b"){
-            image(lpkidsblue, 0, 0);
+            image(lpkidsblue, 50, 50);
         }
         if(keyCode=="32"){
             fill(0);
-            rect(0, 0, 500, 374);
+            rect(50, 50, 500, 374);
             blendMode(LIGHTEST);
-            image(lpkidsred,0,0);
-            image(lpkidsgreen,0,0);
-            image(lpkidsblue,0,0);
+            image(lpkidsred,50,50);
+            image(lpkidsgreen,50,50);
+            image(lpkidsblue,50,50);
         }
     }
     else{
         blendMode(NORMAL);
-        image(lpkidsgray,100, 100);
+        image(lpkidsgray,50, 50);
         image(television, 0, 0);
     }
 }
