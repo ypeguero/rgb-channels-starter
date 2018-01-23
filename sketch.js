@@ -2,16 +2,18 @@ var lpkidsred;
 var lpkidsgreen;
 var lpkidsblue;
 var lpkidsgray;
+var television;
 
 function preload(){
     lpkidsgray = loadImage("images/lpkids-gray.png");
     lpkidsred = loadImage("images/lpkids-red.png");
     lpkidsgreen = loadImage("images/lpkids-green.png");
     lpkidsblue = loadImage("images/lpkids-blue.png");
+    television = loadImage("images/old-tv.png");
 }
 
 function setup(){
-    createCanvas(500,374);
+    createCanvas(749,524);
 }
 
 function draw(){
@@ -36,6 +38,7 @@ function draw(){
     }
     else{
         blendMode(NORMAL);
-        image(lpkidsgray,0,0);
+        image(lpkidsgray,100, 100);
+        image(television, 0, 0);
     }
 }
