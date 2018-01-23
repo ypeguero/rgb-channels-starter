@@ -19,6 +19,15 @@ function draw(){
         if(key=="r"){
             image(lpkidsred, 0, 0);
         }
+        if(key=="g"){
+            image(lpkidsgreen, 0, 0);
+        }
+        if(key=="b"){
+            image(lpkidsblue, 0, 0);
+        }
+        if(keyCode=="32"){
+            
+        }
     }
     else{
         image(lpkidsgray,0,0);
