@@ -26,10 +26,16 @@ function draw(){
             image(lpkidsblue, 0, 0);
         }
         if(keyCode=="32"){
-            
+            fill(0);
+            rect(0, 0, 500, 374);
+            blendMode(LIGHTEST);
+            image(lpkidsred,0,0);
+            image(lpkidsgreen,0,0);
+            image(lpkidsblue,0,0);
         }
     }
     else{
+        blendMode(NORMAL);
         image(lpkidsgray,0,0);
     }
 }
